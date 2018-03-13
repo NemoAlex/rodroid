@@ -1,0 +1,13 @@
+{
+  "name": "rodroid",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/NemoAlex/rodroid",
+  "author": "NemoAlex",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "nightmare": "^3.0.0"
+  }
+}
