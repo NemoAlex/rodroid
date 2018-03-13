@@ -1,3 +1,5 @@
+const config = require('./config')
+
 const express = require('express')
 const app = express()
 app.use(require('body-parser').json())
@@ -49,4 +51,5 @@ app.post('/send', async function (req, res) {
   }
 })
 
-app.listen(3000)
+app.listen(config.port)
+console.log('rodroid is listening at ' + config.port)
